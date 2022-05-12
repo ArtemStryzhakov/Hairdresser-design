@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(240, 240, 240);
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+#top-content {
+    background-color: #202020;
+    display: flex;
+    margin-right: -8px;
+    margin-left: -8px;
+    margin-top: -12px;
+    height: 30px;
+    text-align: center;
+}
+
+#hallo {
+    margin: 0 auto;
+    margin-top: 7px;
+    color: #E0E0E0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#main-content {
+    margin: 0 auto;
+    width: 60%;
+    background-color: burlywood;
+}
+
+#navigation-panel {
+    float: right;
+    margin-right: 40%;
+    margin-top: 60px;
+}
+
+#navigation-panel > a {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+}
