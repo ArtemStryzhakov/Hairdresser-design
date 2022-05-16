@@ -1,26 +1,47 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Testing</title>
+        <title>Hairdresser</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="images/Logo.png" />
     </head>
     <body>
         <header>
-            <div id="top-content">
-                <span id="hallo">Youth hairdressers salon in TTHK</span>
+            <div id="top-label">
+                <span id="hallo">Your hairdressers salon in TTHK</span>
             </div>
         </header>
-        <div  id="main-content">
-            <img src="images/logo.png" alt=" " style="width: 300px; height: 300px; margin-top: 20px; margin-left: 20px;">
+        <div  id="top-content">          
+            <div id="nav-div">
+                <img src="images/logo.png" alt=" " id="logo">
 
-            <nav id="navigation-panel">
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Styles</a>
-                <a href="place.html">Place</a>
-            </nav>
+                <nav id="navigation-panel">
+                    <a href="#" class="underline">Home</a>
+                    <a href="#" class="underline">About</a>
+                    <a href="place.html" class="underline">Styles</a>
+                    <a href="testLogin.html" class="underline">Login / Register</a>
+                </nav>
+            </div>  
         </div>
+        <a href="#">
+            <img src="images/photo.jpg" alt=" " id="main-picture"  width="100%">
+        </a>
         
-        <footer></footer>
+        <footer>          
+            <div id="footer-info" style="display: flex;">
+                <div>
+                    <h3>Contact</h3>
+                    <span><img src="images/email.png" alt=" " class="icons"></span>
+                    <span class="info">Info@hairline.ee</span><br>  
+                    <span><img src="images/gps.png" alt=" " class="icons"></span>
+                    <span class="info">Roseni 12, Tallinn</span><br>  
+                    <span><img src="images/phone.png" alt=" " class="icons"></span>
+                    <span class="info">+372 602 2424</span><br>  
+                    <span><img src="images/clock.png" alt=" " class="icons"></span>
+                    <span class="info">E-R 9-18</span> 
+                </div>
+                <img src="images/Logo.png" alt="">
+            </div>
+        </footer>
     </body>
 </html>
